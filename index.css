@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Rampart+One&family=Zen+Kaku+Gothic+Antique:wght@300&family=Zen+Kurenaido&display=swap');
 body{
     margin: 0;
     padding: 0;
@@ -14,6 +15,7 @@ select{
     margin: 0px 0px 5px 10px;
     border-radius: 10px 10px 10px 10px;
     text-align: center;
+    cursor: pointer;
 }
 
 section{
@@ -22,7 +24,7 @@ section{
     margin: 5% auto;
     border-style: ridge;
     box-shadow: 2px 5px 12px 0px;
-    width: 500px;
+    width: 38%;
     height: auto;
 }
 #div-principal{
@@ -41,6 +43,7 @@ section{
     width: 50%;
     height: 20px;
     font-weight: bold;
+
 }
 #input-num:hover{
     background-color: rgb(236, 212, 248);
@@ -80,13 +83,15 @@ label{
     border-radius: 10px 10px 10px 10px;
     border-style: none;
     box-shadow: 1px 1px 1px 1px rgb(59, 9, 59);
-    transition: transform .2s;
+    transition: transform .1s;
+    background-color: white;
 }
 
 #button-calcular:hover{
     background-color: rgb(172, 255, 139);
-    box-shadow: 1px 0px 5px 1px rgb(145, 190, 151);
+    box-shadow: 1px 0px 5px 1px rgb(74, 109, 77);
     transform: scale(1.1);
+    cursor: pointer;
 }
 
 #tabela-valor{

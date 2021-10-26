@@ -3,6 +3,7 @@ import { AdicionaValor } from "./adicionaValor.js"
 let selectDE = document.querySelector('#selectDE')
 let selecttPARA = document.querySelector('#selectPARA')
 let pegaValorInput = document.querySelector('#input-num')
+pegaValorInput.focus()
 var milimetro = 'Milímetro'
 var kilometro = 'Quilômetro'
 var metros = 'Metro'
@@ -12,6 +13,7 @@ var centimetros = 'Centímetro'
 let $pegaButtonCalcular = document.querySelector('#button-calcular')
 $pegaButtonCalcular.addEventListener('click', (e)=>{
     e.preventDefault()
+    pegaValorInput.focus()
     let valor = 0
     let DE = selectDE.value
     let PARA = selecttPARA.value
